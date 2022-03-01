@@ -24,7 +24,7 @@ const urlFriendly = string.replace(/ /g, "-")
 
 ## Functional Concepts
 
-- <ins>immutability</ins>: sdata cannot be changed
+- <ins>immutability</ins>: data cannot be changed
 - <ins>pure function</ins> : a function that returns a value that is computed based on its arguments, they do not cause side effects, set global variables, or change anything about application state.
   - Pure functions are naturally testable. They do not change anything about their environment or “world,” and therefore do not require a complicated test setup or teardown
 - Pure functions should be:
@@ -33,7 +33,7 @@ const urlFriendly = string.replace(/ /g, "-")
   2. The function should return a value or another function.
   3. The function should not change or mutate any of its arguments.
 
-- <ins>Higher-order functions</ins> : functions that can manipulate other functions. They can take functions in as arguments, or return functions, or both.
+- <ins>Higher-order functions</ins> : They can take functions in as arguments, or return functions, or both.
 - <ins>Recursion</ins> : functions that can call themselves
 - <ins>Composition</ins> : Functional programs break up their logic into small pure functions that are focused on specific tasks. Eventually, you will need to put these smaller functions together. Specifically, you may need to combine them, call them in series or parallel, or compose them into larger functions until you eventually have an application.
   - The goal of composition is to “generate a higher order function by combining simpler functions.”
