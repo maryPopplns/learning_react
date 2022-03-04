@@ -14,6 +14,8 @@
 
 ### React Children
 
+- provides a way of working with the children of a particular component
+
 ## JS Library Integration
 
 ## Higher Order Components
