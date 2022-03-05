@@ -18,9 +18,9 @@
   - allows you to count, map, loopover, or convert props.children to an array
   - allows you to verify that you are displaying a single child with React.Children.only
 
-## <ins> JS Library Integration </ins>
-
 ## <ins> Higher Order Components </ins>
+
+- a function that takes a React component as an argument and returns another React component
 
 ## <ins> Managing state outside of react </ins>
 
