@@ -43,10 +43,8 @@
 
 #### subscribing to stores
 
-#### saving to local storage
+- Stores allow you to subscribe handler functions that are invoked every time the store completes dispatching an action
 
 ## action creators
 
-## middleware
-
-#### appyling middleware to the store
+- Action objects are simply JavaScript literals. Action creators are functions that create and return these literals.
