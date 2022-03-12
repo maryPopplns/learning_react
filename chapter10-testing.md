@@ -47,4 +47,8 @@ package.json
 
 ## <ins> snapshot testing </ins>
 
+- Snapshot testing provides us with a way to quickly test UI components to make sure that we have not caused any unexpected changes
+
 ## <ins> using code coverage </ins>
+
+- Code coverage is the process of reporting on how many lines of code have actually been tested.
